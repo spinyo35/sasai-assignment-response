@@ -9,3 +9,4 @@
 6) changed Request to request in com.econetwireless.epay.domain.SubscriberRequest named query
 7) ResponseCode enum  //code= code was causing the instance variable nt to be initialised changed to this.code = code;
 8) added  @PathVariable("partnerCode")  to enquireAirtimeBalance method in com.econetwireless.epay.api.rest.resources.EpayResource
+9) instance variables in EpayResource autowired to allow for dependancy injection
